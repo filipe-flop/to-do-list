@@ -1,6 +1,6 @@
 import { Header } from "./components/Header";
 import { Input } from "./components/Input";
-import { Task } from "./components/Task";
+import { TasksContainer } from "./components/TasksContainer";
 import './global.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div>
       <Header />
       <Input />
-      <Task />
+      <TasksContainer />
     </div>
     
   )

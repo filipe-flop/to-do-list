@@ -1,0 +1,43 @@
+.tasksHeader {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 30.375rem;
+    font-family: 'Inter';
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+.createdTasks {
+    display: flex;
+    color: var(--blue);
+    gap: 0.5rem;
+}
+
+.createdTasks div {
+    display: flex;
+    justify-content: center;
+    box-sizing: initial;
+    padding: 0.125rem 0.5rem 0.125rem 0.5rem;
+    background: var(--gray-400);
+    color: var(--gray-200);
+    font-size: 0.75rem;
+    border-radius: 999px;
+}
+
+.concludedTasks {
+    display: flex;
+    gap: 0.5rem;
+    color: var(--purple);
+}
+
+.concludedTasks div {
+    display: flex;
+    justify-content: center;
+    box-sizing: initial;
+    padding: 0.125rem 0.5rem 0.125rem 0.5rem;
+    background: var(--gray-400);
+    color: var(--gray-200);
+    font-size: 0.75rem;
+    border-radius: 999px;
+}

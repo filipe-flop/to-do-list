@@ -1,0 +1,33 @@
+.emptyTasks {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem auto;
+    width: 46rem;
+    border-top: solid 0.5px var(--gray-300);
+    border-radius: 8px;
+}
+
+.emptyTasks h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 46rem;
+    font-family: 'Inter';
+    font-size: 1rem;
+}
+
+.emptyTasks span {
+    display: flex;
+    justify-content: center;
+    width: 46rem;
+    font-family: 'Inter';
+    font-size: 1rem;
+}
+
+.emptyTasks img {
+    width: 3.5rem;
+    height: 3.5rem;;
+    margin-top: 4rem;
+}
